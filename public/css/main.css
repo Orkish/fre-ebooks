@@ -22,3 +22,9 @@ body {
 	-moz-animation: zoomOutDown 0.5s both ease-in;
 	animation: zoomOutDown 0.5s both ease-in;
 }
+
+/* home page */
+
+.welcome-container {
+	background: url( "../images/books.jpg" );
+}

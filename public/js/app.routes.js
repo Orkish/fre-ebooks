@@ -9,7 +9,7 @@ angular.module( 'routerRoutes', [ 'ngRoute' ])
 		.when( '/', {
 			templateUrl: 'views/pages/home.html'
 			,controller: 'homeController'
-			,controllerAs: 'http'
+			,controllerAs: 'home'
 		})
 
 		// route for about page

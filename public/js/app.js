@@ -3,7 +3,7 @@ var app = angular.module( 'mainApp', [ 'routerRoutes', 'ngAnimate' ]);
 app.controller( 'mainController', function() {
 		var vm = this;
 
-		vm.welcomeMsg = 'Welcome to the Fre-ebooks!';
+		// vm.welcomeMsg = 'Welcome to the Fre-ebooks!';
 	})
 
 	// homepage controller
