@@ -9,14 +9,14 @@ angular.module( 'routerRoutes', [ 'ngRoute' ])
 		.when( '/', {
 			templateUrl: 'views/pages/home.html'
 			,controller: 'homeController'
-			,controllerAs: 'home'
+			,controllerAs: 'http'
 		})
 
 		// route for about page
-		.when( '/about', {
-			templateUrl: 'views/pages/about.html'
-			,controller: 'aboutController'
-			,controllerAs: 'about'
+		.when( '/view', {
+			templateUrl: 'views/pages/view.html'
+			,controller: 'viewController'
+			,controllerAs: 'view'
 		})
 
 		// route for contact page
