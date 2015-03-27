@@ -26,7 +26,7 @@ app.get( '*', function( req, res ) {
 // 	  // console.log( writeObj );
 // 	});
 // });
-var port = process.env.PORT || 1337;
+var port = process.env.PORT || 3000;
 
 app.listen( port );
 console.log( 'Magical shit happening now on ', port );
