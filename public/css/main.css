@@ -41,6 +41,10 @@ body {
   text-align: center;
 }
 
+.jumbotron {
+  background: rgba(255, 255, 255, .9);
+}
+
 /* home page */
 
 .welcome-container {
@@ -73,4 +77,9 @@ p.small-text {
 }
 
 /* view page */
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
 

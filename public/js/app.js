@@ -18,7 +18,7 @@ app.controller( 'mainController', function() {
 	.controller( 'viewController', function( $http ) {
 		var vm = this;
 
-		vm.message = "this is the view Page!";
+		vm.message = "Books and resources are sorted alphabetically by each category";
 
 		// $http.get( "http://api.github.com/repos/vhf/free-programming-books/readme" )
 		// $http.get( "http://api.github.com/repos/vhf/free-programming-books/contents/free-programming-books.md" )
