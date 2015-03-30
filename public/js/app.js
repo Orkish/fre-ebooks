@@ -18,21 +18,14 @@ app.controller( 'mainController', function() {
 	.controller( 'viewController', function( $http ) {
 		var vm = this;
 
-		vm.message = "Books and resources are sorted alphabetically by each category";
-
-		// $http.get( "http://api.github.com/repos/vhf/free-programming-books/readme" )
-		// $http.get( "http://api.github.com/repos/vhf/free-programming-books/contents/free-programming-books.md" )
-		// .success( function( data ) {
-		// 	var dataContent = data.content;
-		// 	console.log( 'this is dataContent:', dataContent.length );
-		// 	var decoded = $base64.decode( dataContent );
-		// 	console.log( 'this is data:', decoded );
-		// });
+		vm.message = "Books and resources are sorted alphabetically by each category. Please use cmd/ctrl + f to search for keywords";
 	})
 
 	// contact controller
-	.controller( 'contactController', function() {
+	.controller( 'contactController', function( $scope ) {
 		var vm = this;
 
-		vm.message = "Fill the form out below to contact me!";
+		vm.message = "Feel free to send me suggestions, ideas, questions or just to troll me";
+
+		$scope.toggling = true;
 	});

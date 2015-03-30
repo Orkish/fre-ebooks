@@ -1,4 +1,3 @@
-
 (function() {
 
 	var myNav = $(".my-nav");
@@ -35,7 +34,6 @@
 			$( '.original' ).css( 'visibility', 'visible' );
 		}
 	}
-
 
 })();
 
