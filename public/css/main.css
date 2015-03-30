@@ -32,6 +32,17 @@ body {
 	animation: zoomOutDown 0.5s both ease-in;
 }
 
+/* to prevent routing issue in angular */
+.nav, .pagination, .carousel, .panel-title a { 
+	cursor: pointer; 
+}
+
+/* nav bar */
+
+.cloned, .original {
+	background: rgba(255, 255, 255, .9);
+}
+
 /* all views */
 
 .content-container {
@@ -82,4 +93,6 @@ ul {
 	list-style-type: none;
 	padding: 0;
 }
+
+/* contact page */
 
