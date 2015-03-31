@@ -10,7 +10,7 @@ app.controller( 'mainController', function() {
 	.controller( 'homeController', function() {
 		var vm = this;
 
-		vm.message = "The contents of this page is not my own and is graciously hosted on Github and maintained by the public community ";
+		vm.message = "The contents of library are not my own and graciously hosted on Github and maintained by the public community";
 		vm.clickOut = "https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md";
 	})
 
